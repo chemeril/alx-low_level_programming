@@ -1,59 +1,39 @@
 #include "main.h"
 
-/**                                                                                                                                     
 
-                                                                                                                                        
 
-*main printing putchar                                                                                                                  
+/**
 
-                                                                                                                                        
+* main - prints putchar
 
-*return - 0                                                                                                                             
+* Return: always 0
 
-                                                                                                                                        
+*/
 
-*/                                                                                                                                      
+int main(void)
 
-                                                                                                                                        
+{
 
-                                                                                                                                        
+	_putchar('_');
 
-                                                                                                                                        
+	_putchar('p');
 
-int main(){                                                                                                                             
+	_putchar('u');
 
-                                                                                                                                        
+	_putchar('t');
 
-_putchar('_');                                                                                                                          
+	_putchar('c');
 
-                                                                                                                                        
+	_putchar('h');
 
-_putchar('p');                                                                                                                          
+	_putchar('a');
 
-                                                                                                                                        
+	_putchar('r');
 
-_putchar('u');                                                                                                                          
+	_putchar('\n');
 
-                                                                                                                                        
 
-_putchar('t');                                                                                                                          
 
-                                                                                                                                        
+	return (0);
 
-_putchar('c');                                                                                                                          
-
-                                                                                                                                        
-
-_putchar('h');                                                                                                                          
-
-                                                                                                                                        
-
-_putchar('a');                                                                                                                          
-
-                                                                                                                                        
-
-_putchar('r');             
-_putchar('\n');
-
-return 0;
 }
